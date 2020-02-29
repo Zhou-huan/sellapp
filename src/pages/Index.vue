@@ -11,7 +11,7 @@
             <img src="img/brand@2x.png" alt />
             {{details.name}}
           </h3>
-          <p>{{details.description}}/{{details.deliveryTime}}分钟送达</p>
+          <p>{{details.description}}/{{details.deliveryTime}}分钟送达啦啦啦</p>
           <p class="description" @click="isShow=true">
             <img src="img/decrease_1@2x.png" alt />
             <template v-for="(v,i) in details.supports">
